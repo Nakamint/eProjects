@@ -46,25 +46,26 @@ header {
     background: #50443E;
     color: #F0F0F0;
 }
-div .spacer1 {
-    display: flex;
-}
-.spacer1 .flex1 {
+
+.content-flex1 {
     margin: 300px;
     order: 1;
     padding-top: 200px;
 }
-.spacer1 .flex1 .title {
+.content-flex1Title {
     font-family: AvenirLTStd-Book;
     font-weight: 500;
     font-size: 24px;
 }
-.spacer1 .flex1 .text {
+.content-flex1Text {
     font-family: AvenirLTStd-Light;
     font-weight: 200;
     font-size: 12px;
 }
-.spacer1 .flex2{
+.spacer1 {
+    display: flex;
+}
+.content-flex2{
     order: 2;
 }
   
