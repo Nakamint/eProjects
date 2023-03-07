@@ -46,3 +46,25 @@ header {
     background: #50443E;
     color: #F0F0F0;
 }
+div .spacer1 {
+    display: flex;
+}
+.spacer1 .flex1 {
+    margin: 300px;
+    order: 1;
+    padding-top: 200px;
+}
+.spacer1 .flex1 .title {
+    font-family: AvenirLTStd-Book;
+    font-weight: 500;
+    font-size: 24px;
+}
+.spacer1 .flex1 .text {
+    font-family: AvenirLTStd-Light;
+    font-weight: 200;
+    font-size: 12px;
+}
+.spacer1 .flex2{
+    order: 2;
+}
+  
