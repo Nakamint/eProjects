@@ -1,3 +1,21 @@
+@font-face {
+  font-family: AvenirLTStd-Book;
+  src: url(AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: AvenirLTStd-Light;
+  src: url(AvenirLTStd-Light.otf);
+}
+
+@font-face {
+  font-family: AvenirLTStd-Roman;
+  src: url(AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: FuturaBook;
+    src: url(FuturaBook.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -48,24 +66,40 @@ header {
 }
 
 .content-flex1 {
-    margin: 300px;
+    margin: 0px;
     order: 1;
-    padding-top: 200px;
+    flex-basis: 500px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .content-flex1Title {
-    font-family: AvenirLTStd-Book;
+    font-family: FuturaBook;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 54px;
+    text-align: left;
+    order: 1;
 }
 .content-flex1Text {
     font-family: AvenirLTStd-Light;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: left;
+    order: 2;
 }
-.spacer1 {
+.spacer1{
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 .content-flex2{
     order: 2;
+    padding-bottom: 50px;
+}
+.content-flex2Image {
+
 }
   
