@@ -6,7 +6,7 @@
 			}
 	}
 	function hk_phoneNo(phoneno){
-		if (/^(\+91-|\+91|0)?\d{10}$/.test(phoneno)) {
+		if (/(03|05|07|08|09|01[2|6|8|9])+([0-9]{8})\b/.test(phoneno)) {
 			return true;
 		}else{
 			return false;
