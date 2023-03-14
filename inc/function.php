@@ -92,7 +92,7 @@
 
 	    $encrypt_method = "AES-256-CBC";
 	    $secret_key = '@@#$%^&()_+Si';
-	    $secret_iv = 'Testing tesst';
+	    $secret_iv = 'Teri Bhen ki chut';
 
 	
 	    $key = hash('sha256', $secret_key);

@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('#l-form').submit(function(e){
 		e.preventDefault();
 		var email = $('#l-email').val(),
@@ -27,6 +28,8 @@ $(document).ready(function(){
 			message.addClass('text-red').text("Fill in all the fields");
 		}
 	});
+
+
 	$("#add-to-cart").click(function(){
 		var product_id = $('#p-id').val(),
 			message = $("#add-to-cart-message");
@@ -48,6 +51,7 @@ $(document).ready(function(){
 			}
 		});
 	});
+
 	$('.remove-from-cart').click(function(){
 		var cart_id = $(this).attr('id'),
 			message = $('#cart-message');
@@ -69,6 +73,7 @@ $(document).ready(function(){
 			}
 		});
 	});
+
 	$('#place_order_form').submit(function(event){
 		event.preventDefault();
 		var name = $.trim($('#order_name').val()),

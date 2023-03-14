@@ -2,7 +2,7 @@
 <div class="container">
 <?php
 	require_once("inc/init.php");
-	require_once("../classes/Upload.php");
+	require_once("../classes/upload.php");
 	not_login($_SESSION['admin_id'], "login.php");
 	if (isset($_GET['id'])) {
 		$id = escape($_GET['id']);

@@ -1,7 +1,7 @@
 <?php
 	require_once("inc/header.php");
 	require_once("inc/navbar.php");
-	require_once("../classes/Upload.php");
+	require_once("../classes/upload.php");
 	not_login($_SESSION['admin_id'], "login.php");
 
 	if (isset($_GET['id'])) {
