@@ -13,7 +13,7 @@
       $category_count = $db->GetNum("category", null);
       ?>
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-6" style="margin-bottom: 25px;">
           <a href="users.php" class="a">
           <div class="tile-container bg-red">
             <i class='fa fa-users icon-medium'></i>
@@ -23,7 +23,7 @@
           </a>
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-6" style="margin-bottom: 25px;">
         <a href="order.php?status=1" class="a">
           <div class="tile-container bg-green">
             <i class='fa fa-money icon-medium'></i>
@@ -33,7 +33,7 @@
           </a>
         </div>
        
-        <div class="col-sm-3">
+        <div class="col-sm-6" style="margin-bottom: 25px;">
           <a href="category.php" class="a">
           <div class="tile-container bg-orange">
             <i class='fa fa-files-o icon-medium'></i>
@@ -43,7 +43,7 @@
           </a>
         </div>
  
-        <div class="col-sm-3">
+        <div class="col-sm-6" style="margin-bottom: 25px;">
           <a href="product.php" class="a">
           <div class="tile-container bg-blue">
             <i class='fa fa-black-tie icon-medium'></i>

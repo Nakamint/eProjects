@@ -5,7 +5,7 @@
 		private $_host = "localhost",
 				$_database = "shopping",
 				$_username = "root",
-				$_password = "M1903f10g#";
+				$_password = "";
 
 		public function __construct(){
 			return $this->Connnect();
