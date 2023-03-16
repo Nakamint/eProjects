@@ -122,7 +122,7 @@ CREATE TABLE `category` (
 
 LOCK TABLES `category` WRITE;
 /*!40000 ALTER TABLE `category` DISABLE KEYS */;
-INSERT INTO `category` VALUES (6,'Testing','images/1e42a682b0135d62e4477f6050bb4a57/Ekran Görüntüsü (126).png'),(15,'Testing','images/1db175a23bf47f33f23f71a83d5fb2e4/Ekran Görüntüsü (124).png'),(16,'Testing','images/aa601bafa39d49b73a311c4875c5a679/Ekran Görüntüsü (125).png');
+INSERT INTO `category` VALUES (17, 'Mother Day', 'images/137fdcb461d3c3611630806cb7862c29/1.jpg'),(18, 'The Garden Collection', 'images/6d4bebec79601338fcacb931ba25d3d8/2.jpg'),(19, 'Faux Flower Arrangements', 'images/8a6c47fc105283844ecf8af63f370ba3/3.jpg'),(20, 'Faux Flowers Plants', 'images/2bc77fae19b425f4b781d11a24c2f506/4.jpg'),(21, 'Home Decor', 'images/f7d5d34f56ed2e70c969b6f29348aee0/5.jpg'),(22, 'Gift Cards', 'images/03621bc9c039e3a07f70f1d873b0560f/6.jpg');
 /*!40000 ALTER TABLE `category` ENABLE KEYS */;
 UNLOCK TABLES;
 
