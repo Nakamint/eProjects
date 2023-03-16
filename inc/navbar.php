@@ -29,9 +29,9 @@ $category_ = $db->FetchAll("`id`,`name`", "category", null, "`id` ASC");
                     <?php
                 } else {
                     ?>
-                    <li title="Home"><a href='index.php'><i class="  ">Acount</i></a></li>
+                    <li title="Home"><a href='index.php'><i class="">Home</i></a></li>
                     <li title="Products"><a href='products.php'><i class="">Cart</i></a></li>
-                    <li title="Login / Register"><a href='login.php'><i class="fa fa-sign-in icon-small"></i></a></li>
+                    <li title="Login / Register"><a href='login.php'><i class="">Acount</i></a></li>
                     <?php
                 }
                 ?>
@@ -54,8 +54,8 @@ $category_ = $db->FetchAll("`id`,`name`", "category", null, "`id` ASC");
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div id="navbar" class="navbar-collapse collapse navbar-bottom">
-            <ul class="nav navbar-nav" style="font-size: 1.2em; padding-top: 7px">
+        <div id="navbar" class="navbar-collapse collapse navbar-bottom ">
+            <ul class="nav navbar-nav" style="font-size: 1.2em; padding-top: 7px ">
                 <?php foreach ($category_ as $cat): ?>
                     <li><a href="category.php?id=<?php echo $cat['id']; ?>"><?= $cat['name'] ?></a> </li>
                 <?php endforeach; ?>
