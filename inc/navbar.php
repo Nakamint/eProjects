@@ -21,16 +21,16 @@ $category_ = $db->FetchAll("`id`,`name`", "category", null, "`id` ASC");
 
                     $cart_count = $db->GetNum("cart", "user_id='$user_id' AND active='y'");
                     ?>
-                    <li title="Home"><a href='cart.php'><i class="fa fa-shopping-cart icon-small"> <span class="badge"
-                                                                                                         id="cart-count"><?php echo $cart_count; ?></span></i></a></li>
-                    <li title="Products"><a href='products.php'><i class="fa fa-black-tie icon-small"></i></a></li>
-                    <li><a href="user.php"><i class="fa fa-user icon-small"></i> <span class="text-20"></span></a></li>
-                    <li title="logout"><a href="logout.php"><i class="fa fa-sign-out icon-small"></i></a></li>
+                    <li title="Home"><a href='index.php'><i class="">Home</i></a></li>
+                    <li title="Cart"><a href='cart.php'><i class=""> Cart<span class="badge"id="cart-count"><?php echo $cart_count; ?></span></i></a></li>
+                    <li title="Products"><a href='products.php'><i class="">Collection Gallery</i></a></li>
+                    <li title="Login / Register"><a href='login.php'><i class="">Acount</i></a></li>
+                    <li title="logout"><a href="logout.php"><i class="">Logout</i></a></li>
                     <?php
                 } else {
                     ?>
                     <li title="Home"><a href='index.php'><i class="">Home</i></a></li>
-                    <li title="Products"><a href='products.php'><i class="">Cart</i></a></li>
+                    <li title="Products"><a href='products.php'><i class="">Collection Gallery</i></a></li>
                     <li title="Login / Register"><a href='login.php'><i class="">Acount</i></a></li>
                     <?php
                 }
