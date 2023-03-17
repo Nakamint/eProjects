@@ -18,12 +18,12 @@ foreach ($category_ as $cat) {
 $offer = $db->FetchAll("image,link", "offer", null, " RAND()");
 
 ?>
-<div class="container width-100">
+<div class="slide-custom container width-100">
     <div id="myCarousel" class="carousel slide " data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="0" class="active dots"></li>
+            <li data-target="#myCarousel" data-slide-to="1"class="dots"></li>
+            <li data-target="#myCarousel" data-slide-to="2"class="dots"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active height-400px">

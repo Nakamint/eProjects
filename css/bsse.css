@@ -1,0 +1,17 @@
+.slide-custom .carousel-inner .item img{
+    object-fit: cover;
+}
+.slide-custom .dots{
+    background: #342f4b;
+    opacity: 1;
+    cursor: pointer;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    color: #342f4b;
+    opacity: 0.5;
+}
+.slide-custom .dots.active{
+    opacity: 1;
+}

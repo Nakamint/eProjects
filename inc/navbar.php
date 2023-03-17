@@ -45,7 +45,7 @@ $category_ = $db->FetchAll("`id`,`name`", "category", null, "`id` ASC");
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand_img" href="index.php">
-                <img  src="https://cdn.shopify.com/s/files/1/0260/3093/2046/files/TICH_Logo_250x102.png?v=1667848760">
+                <img style="cursor:pointer" onclick="location.href='index.php';" src="https://cdn.shopify.com/s/files/1/0260/3093/2046/files/TICH_Logo_250x102.png?v=1667848760">
             </div>
             <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
