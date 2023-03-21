@@ -16,7 +16,7 @@
 				<div class="col-sm-3 col-md-3">
 					<a href="category.php?id=<?php echo $category_id; ?>" class="thumbnail text-center">
 						<img src="<?php echo $category_image;?>">
-						<p class="text-center text-bold text-20"><?php echo $category_name;?></p>
+						<p class="text-center text-bold custom-title text-20"><?php echo $category_name;?></p>
 					</a>
 				</div>
 			<?php

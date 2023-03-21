@@ -39,15 +39,18 @@
 					<div class="col-sm-3 col-md-3">
                         <a href="product.php?id=<?php echo $product['id']; ?>" class="thumbnail w-prod">
                             <img src="<?php echo $product['image']; ?>">
+							<div class="product-items">
                             <p class="text-center"><?php echo $product['name']; ?></p>
                             <?php
-                            if ($product['stock'] > 0) {
-                                echo '<p class="text-bold text-center">$'.$product['sp'].'</p>';
-                            }
-                            else {
-                                echo '<p class="text-red text-center">Out of Stock</p>';
-                            }
+                                if ($product['stock'] > 0) {
+                                    echo '<span class="text-bs-primary text-bold custom-price">' . $product['sp'] . '</span>';
+                                }
+                                else {
+                                    echo '<p class="text-red text-center">Out of Stock</p>';
+                                }
                             ?>
+                        </div>
+
                         </a>
 					</div>
 					<?php

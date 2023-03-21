@@ -23,7 +23,7 @@
 	color: white;
 }
 body{
-	background: #fafafa;
+	background: #fff;
 
 }
 .category-list{
@@ -57,7 +57,6 @@ body{
 .product-img-area{
 	width: 100%;
 	background: white;
-	border:1px solid #ccc;
 	height: auto;
 	text-align: center;
 	padding: 5px;
@@ -69,7 +68,6 @@ body{
 }
 .product-desc-container{
 	min-height: 250px;
-	border:1px solid #ccc;
 	background: white;
 	box-sizing:border-box;
 	padding: 10px;

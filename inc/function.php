@@ -92,7 +92,7 @@
 
 	    $encrypt_method = "AES-256-CBC";
 	    $secret_key = '@@#$%^&()_+Si';
-	    $secret_iv = 'Teri Bhen ki chut';
+	    $secret_iv = 'TEsting for fun';
 
 	
 	    $key = hash('sha256', $secret_key);
@@ -121,5 +121,12 @@
 			redirect($url);
 		}
 	}
-
+	
+	if (!function_exists('currency_format')) {
+		function currency_format($number, $suffix = 'đ') {
+			if (!empty($number)) {
+				return number_format($number, 0, ',', '.') . "{$suffix}";
+			}
+		}
+	}
 ?>

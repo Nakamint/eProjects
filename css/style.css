@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.font-primary{font-family: 'Playfair Display', serif !important;}
 .bg-red{background: #e95b4c;}
 .bg-green{background: #2ecc71;}
 .bg-blue{background: #3498db;}
@@ -72,6 +74,7 @@ label{cursor: pointer;}
 .height-300px{height: 300px;}
 .height-350px{height: 350px;}
 .height-400px{height: 400px;}
+.height-600px{height: 600px;}
 .width-50{width: 50%;}
 .width-80{width: 80%;}
 .width-100{width:100%;}

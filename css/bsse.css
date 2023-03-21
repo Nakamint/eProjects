@@ -1,3 +1,6 @@
+.font-primary{
+    font-family: 'Playfair Display', serif!important;
+}
 .slide-custom .carousel-inner .item img{
     object-fit: cover;
 }
@@ -6,12 +9,124 @@
     opacity: 1;
     cursor: pointer;
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 14px;
+    height: 14px;
     margin: 0 8px;
     color: #342f4b;
     opacity: 0.5;
+    border: 1px solid #342f4b;
+    border-radius: 10px;
 }
 .slide-custom .dots.active{
     opacity: 1;
 }
+.slide-custom  .carousel-control{
+    width: 4%;
+    background-image: unset ;
+}
+.slide-custom .carousel-control:focus, 
+.slide-custom .carousel-control:hover {
+    color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: 1;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 6px;
+    position: absolute;
+    top: 50%;
+}
+.right-arrow  {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 25px;
+}
+.left-arrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.tr-row .thumbnail{
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color:initial;  
+    border:none;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out
+}
+.product-items{
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-items p.text-center{
+    padding-top: 7px;
+    font-weight: 400;
+}
+.text-center{
+    color: #342f4b;
+}
+.text-bs-primary{
+    color: #342f4b; 
+    text-transform: none;
+    font-weight: 400;
+ 
+}
+.custom-text{
+    text-align: center;
+    font-size: 1.71429rem;
+}
+.custom-price{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.custom-product{
+    margin: 5px 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.custom-title{
+    font-size: 1.5rem;
+}
+.btn-product{
+    background-color: #342f4b;
+    height: 49px;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    margin: 20px 0 0;
+    width: 100%;
+    border-radius: 3px;
+}
+.btn-product.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.sale-precent{
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.base-product{
+    text-transform: none;
+}
+.btn-custom{
+    background: #342f4b;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 3px;
+}
+.btn-custom:hover{
+    opacity: 0.9;
+    background:  #342f4b;
+}
+
