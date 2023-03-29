@@ -21,7 +21,7 @@
 <div class="container padding-10">
 	<div id="cart-container-main">
 	<div class="text-center text-20 text-bold" id="cart-message"></div>
-		<table class="table">
+		<table class="table custom-class">
 		<th>Image</th>
 		<th>Detail</th>
 		<th>Price</th>
@@ -53,9 +53,9 @@
 			echo "
 			<td><img src='{$product['image']}' class='cart-image'></td>
 			<td>{$product['name']}</td>
-			<td>$ {$product['sp']}</td>
-			<td>{$shipping_text}</td>
-			<td>$ {$subtotal}</td>
+			<td class='custom-price'>{$product['sp']}</td>
+			<td class='custom-price'>{$shipping_text}</td>
+			<td class='custom-price'>{$subtotal}</td>
 			<td><button class='remove-from-cart btn btn-primary text-18' id='{$cart_id}'><i class='fa fa-trash-o'></i></button></td>
 			<tr>";
 
@@ -69,11 +69,11 @@
 			<div class="row">
 				<input type="hidden" value="<?php echo encryption("encrypt", $product_id_stack);?>" id="product-id-stack">
 				<div class="col-sm-6 text-left text-muted">Total</div>
-				<div class="col-sm-6 text-right"><?php echo $main_subtotal; ?></div>
+				<div class="col-sm-6 text-right custom-price"><?php echo $main_subtotal; ?></div>
 				<div class="col-sm-6 text-left text-muted">Delivery Charge</div>
-				<div class="col-sm-6 text-right"><?php echo $main_shipping_charge ?></div>
+				<div class="col-sm-6 text-right custom-price"><?php echo $main_shipping_charge ?></div>
 				<div class="col-sm-6 text-left text-20 text-muted">You Pay</div>
-				<div class="col-sm-6 text-20 text-right"><?php echo $main_shipping_charge + $main_subtotal ?></div>
+				<div class="col-sm-6 text-20 text-right custom-price"><?php echo $main_shipping_charge + $main_subtotal ?></div>
 				<div class="col-sm-12 text-25">
 					<a data-toggle="modal" data-target="#myModal" href="#" class="btn btn-primary text-upper btn-block">continue</a>
 				</div>
@@ -128,6 +128,11 @@
 		</div> 
 	</div> 
 </div> 
+<script>
+
+
+
+</script>
 <?php
 	require_once("inc/footer.php");
 ?>

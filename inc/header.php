@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-	<title>Clothes Word</title>
+	<title>The Irish Country Home</title>
 	<link rel="stylesheet" type="text/css" href="css/header.css" rel="preload">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

@@ -65,8 +65,8 @@
 						<input type="text" name="pmp" id="pmp" class="form-control" placeholder="Ex: 45000 (NOTE:no rs)" value="<?php echo $product['mp']; ?>">
 					</div>
 					<div class="col-sm-2">
-						<label for="poff">Color</label>
-						<input type="text" name="poff" id="poff" class="form-control" placeholder="Ex: 25% (NOTE:followed by %)" value="<?php echo $product['off']; ?>">
+						<label for="poff">Sale %</label>
+						<input type="text" name="poff" id="poff" class="form-control" placeholder="Ex: 25% (NOTE:sale by %)" value="<?php echo $product['off']; ?>">
 					</div>
 					<div class="col-sm-2">
 						<label for="pshipping">Shipping Charges $</label>
@@ -80,7 +80,7 @@
 			</div>
 			<div class="form-group">
 				<label for="ptags">Search Tags</label>
-				<textarea id="ptags" name="ptags" class="form-control" placeholder="Seprate tage by comma (EXAMPLE: laptop,apple,macbook,mac book air)"><?php echo $product['tags'] ?></textarea>
+				<textarea id="ptags" name="ptags" class="form-control" placeholder="Seprate tage by comma (EXAMPLE: flower, flower, flower, flower )"><?php echo $product['tags'] ?></textarea>
 			</div>
 			<div class="form-group">
 				<label for="pcategory">Select Product Category</label>
