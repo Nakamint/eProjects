@@ -24,7 +24,6 @@ $category_ = $db->FetchAll("`id`,`name`", "category", null, "`id` ASC");
                     <li title="Home"><a href='index.php'><i class="">Home</i></a></li>
                     <li title="Cart"><a href='cart.php'><i class=""> Cart<span class="badge"id="cart-count"><?php echo $cart_count; ?></span></i></a></li>
                     <li title="Products"><a href='products.php'><i class="">Collection Gallery</i></a></li>
-                    <li title="Login / Register"><a href='login.php'><i class="">Acount</i></a></li>
                     <li title="logout"><a href="logout.php"><i class="">Logout</i></a></li>
                     <?php
                 } else {

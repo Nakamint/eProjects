@@ -16,7 +16,7 @@
 ?>
 <div class="container padding-10">
 	<div class="row">
-		<div class="col-sm-12 col-md-12 bg-white border-ccc">
+		<div class="col-sm-12 col-md-12 bg-white">
 			<?php
 				$category = $db->Fetch("*","category","id='$category_id'");
 				echo "<h1 class='text-center text-upper text-bs-primary'>{$category['name']}</h1>";

@@ -129,4 +129,30 @@
     opacity: 0.9;
     background:  #342f4b;
 }
+.custom-acount{
+    font-size: 1.71429rem;
+}
+.custom-acc{
+    display: block;
+    color: #342f4b;
+    margin-top: 32px;
+    margin-bottom: 22px;
+}
+.btn-acc{
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    background: #342f4b;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+    padding: 15px 20px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.custom-form{
+    
+}
 
