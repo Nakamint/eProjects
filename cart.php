@@ -45,7 +45,7 @@
 				$shipping_text = "<span class='text-bold text-green'>FREE</span>";
 				$shipping_price = 0;
 			}else{
-				$shipping_text = "$ ".$product['shipping'];
+				$shipping_text = "".$product['shipping'];
 				$shipping_price = $product['shipping'];
 			}
 
@@ -69,11 +69,11 @@
 			<div class="row">
 				<input type="hidden" value="<?php echo encryption("encrypt", $product_id_stack);?>" id="product-id-stack">
 				<div class="col-sm-6 text-left text-muted">Total</div>
-				<div class="col-sm-6 text-right">$ <?php echo $main_subtotal; ?></div>
+				<div class="col-sm-6 text-right"><?php echo $main_subtotal; ?></div>
 				<div class="col-sm-6 text-left text-muted">Delivery Charge</div>
 				<div class="col-sm-6 text-right"><?php echo $main_shipping_charge ?></div>
 				<div class="col-sm-6 text-left text-20 text-muted">You Pay</div>
-				<div class="col-sm-6 text-20 text-right">$ <?php echo $main_shipping_charge + $main_subtotal ?></div>
+				<div class="col-sm-6 text-20 text-right"><?php echo $main_shipping_charge + $main_subtotal ?></div>
 				<div class="col-sm-12 text-25">
 					<a data-toggle="modal" data-target="#myModal" href="#" class="btn btn-primary text-upper btn-block">continue</a>
 				</div>
