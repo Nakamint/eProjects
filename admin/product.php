@@ -40,10 +40,10 @@
 				<td><img src='../{$product['image']}' width='100'></td>
 				<td>{$product['description']}</td>
                 <td>{$product['stock']}</td>
-				<td>{$product['mp']}</td>
-				<td>{$product['sp']}</td>
-				<td>{$product['off']}</td>
-				<td>{$product['shipping']}</td>
+				<td class='custom-price'>{$product['mp']}</td>
+				<td class='custom-price'>{$product['sp']}</td>
+				<td>{$product['off']} %</td>
+				<td class='custom-price'>{$product['shipping']}</td>
 				<td>{$product['tags']}</td>
 				<td>{$product['category_name']}</td>
 				<td><a href='edit_product.php?id={$product['id']}'>Edit</a></td>
