@@ -1,0 +1,17 @@
+.col-sm-6 {
+    font-family: AvenirLTStd-Book;
+}
+@font-face {
+    font-family: AvenirLTStd-Book;
+    src: url(AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: AvenirLTStd-Light;
+    src: url(AvenirLTStd-Light.otf);
+}
+
+@font-face {
+    font-family: AvenirLTStd-Roman;
+    src: url(AvenirLTStd-Roman.otf);
+}

@@ -25,6 +25,31 @@
 				</form>
 			</div>
 		</div>
+		<div class="col-sm-12 col-md-12 padding-10" style="min-height:500px;">
+			<div class="thumbnail padding-10 box-sizing" style="max-width: 500px; margin: 0 auto;">
+			<h1 class="text-bs-primary custom-acount text-center text-upper">Signup</h1>
+				<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" id="s-form">
+					<div class="form-group">
+						<label for="s-name" class="text-bs-primary custom-acc">Fullname</label>
+						<input type="text" class="form-control" name="s-name" id="s-name" placeholder="Enter Your Fullname.">
+					</div>
+					<div class="form-group">
+						<label for="s-email" class="text-bs-primary custom-acc">Email</label>
+						<input type="email" class="form-control" name="s-email" id="s-email" placeholder="Enter Your Email.">
+					</div>
+					<div class="form-group">
+						<label for="s-phone" class="text-bs-primary custom-acc">Phone No</label>
+						<input type="text" class="form-control" name="s-phone" id="s-phone" placeholder="Enter Your Phone Number.">
+					</div>
+					<div class="form-group">
+						<label for="s-password" class="text-bs-primary custom-acc">Password</label>
+						<input type="password" class="form-control" name="s-password" id="s-password" placeholder="Enter Your Password.">
+					</div>
+					<input type="submit" class="btn btn-primary custom-acc" value="Signup" id="s-register" name="s-register">
+					<span id="s-message" class="text-bold text-20 float-right"></span>
+				</form>
+			</div>
+		</div>
 
 
 	</div>

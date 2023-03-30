@@ -128,11 +128,6 @@
 		</div> 
 	</div> 
 </div> 
-<script>
-
-
-
-</script>
 <?php
 	require_once("inc/footer.php");
 ?>
