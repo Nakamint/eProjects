@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default sidebar hidden" id="admin-navbar">
+<nav class="navbar navbar-default sidebar" id="admin-navbar">
     <div class="container-fluid">
         <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
