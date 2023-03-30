@@ -1,7 +1,7 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default sidebar hidden" id="admin-navbar">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
@@ -35,3 +35,10 @@
             </div>
         </div>
 </nav>
+<div style="display: block; position: relative; z-index: 10; height: 30px;">
+    <button type="button" class="navbar-toggle custom-toggle" data-toggle="collapse" data-target="#myNavbar" style="float:left; padding: 9px 10px;margin-top: 8px;margin-left: 15px; margin-bottom: 8px; background-color: transparent;background-image: none;border: 1px solid #ababab; border-radius: 4px;">
+            <span class="icon-bar" style="background-color: #ababab"></span>
+            <span class="icon-bar" style="background-color: #ababab"></span>
+            <span class="icon-bar" style="background-color: #ababab"></span>
+    </button>
+</div>
