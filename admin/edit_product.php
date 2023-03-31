@@ -61,7 +61,7 @@
                         <input type="text" name="psp" id="psp" class="form-control" placeholder="Ex: 40000 (NOTE:no rs)" value="<?php echo $product['sp']; ?>">
                     </div>
 					<div class="col-sm-2">
-						<label for="pmp">Size</label>
+						<label for="pmp">Sale</label>
 						<input type="text" name="pmp" id="pmp" class="form-control" placeholder="Ex: 45000 (NOTE:no rs)" value="<?php echo $product['mp']; ?>">
 					</div>
 					<div class="col-sm-2">
