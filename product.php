@@ -41,7 +41,7 @@ if (isset($_GET['id'])) {
                             if ($product['stock'] > 0) {
                                 echo '<p class="text-20">Sale :  <span class="text-bs-primary custom-price" style="text-decoration: line-through;">'.$product['mp'] .'</span><span class="text-bs-primary sale-precent">( '  .$product['off'] . '% )</span></p>';
                                 echo '<p class="text-20">Price :<span class="text-bs-primary text-bold custom-price">' . $product['sp'] . '</span></p>';
-                                echo '<p class="text-20">Stock : <span class="text-bs-primary">' . $product['stock'] . '</span>';
+                                echo '<p class="text-20">Stock : <span class="text-bs-primary">' . $product['stock'] . '</span></p>';
                                 echo '<input type="hidden" value="' . $product_id . '" id="p-id"><button class="btn btn-primary btn-product text-20 margin-5" id="add-to-cart">Add To Cart</button>';
                             } else {
                                 echo '<p class="text-red">Out of Stock</p>';
